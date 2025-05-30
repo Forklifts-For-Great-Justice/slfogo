@@ -1,0 +1,3 @@
+.env
+cmd/slfogo/slfogo
+cmd/testbin/testbin

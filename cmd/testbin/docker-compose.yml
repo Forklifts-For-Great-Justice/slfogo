@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  testbin:
+    container_name: testbin
+    image: forklift/testbin
+    labels:
+      service: "testbin"
+      environment: "prod"
+    logging:
+      driver: syslog
+      options:
+        syslog-address: "tcp://localhost:9999"
+        tag: "{{.Name}}"
+        labels: "service,environment"
