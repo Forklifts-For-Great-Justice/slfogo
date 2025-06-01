@@ -2,7 +2,6 @@ package slfogolib
 
 import (
 	"context"
-	"fmt"
 	"sync"
 	"time"
 
@@ -38,7 +37,6 @@ func (mh *MetricHolder) AddMetric(key [2]string) {
 func (mh *MetricHolder) update() {
 	mh.mtx.Lock()
 	defer mh.mtx.Unlock()
-	fmt.Println(mh.metrics)
 	for k, v := range mh.metrics {
 		if v == 0 {
 			mh.msgVec.DeleteLabelValues(k[0], k[1])
@@ -48,7 +46,6 @@ func (mh *MetricHolder) update() {
 			mh.metrics[k] = 0
 		}
 	}
-	fmt.Println(mh.metrics)
 }
 
 func (mh *MetricHolder) GetGauge() *prometheus.GaugeVec {
