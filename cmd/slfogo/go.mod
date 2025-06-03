@@ -4,7 +4,7 @@ go 1.23.4
 
 require (
 	github.com/forklifts-for-great-justice/goforkliftit v0.0.0-20250524204649-6f320012fc28
-	github.com/forklifts-for-great-justice/slfogo/pkg/slfogolib v0.0.0-20250530054946-00790ecec260
+	github.com/forklifts-for-great-justice/slfogo/pkg/slfogolib v0.0.0-20250603030642-d523c56ee2bd
 	github.com/joho/godotenv v1.5.1
 	github.com/prometheus/client_golang v1.22.0
 	golang.org/x/sync v0.14.0
