@@ -10,6 +10,8 @@ github.com/forklifts-for-great-justice/goforkliftit v0.0.0-20250524204649-6f3200
 github.com/forklifts-for-great-justice/goforkliftit v0.0.0-20250524204649-6f320012fc28/go.mod h1:I0+um3teMccNfqApIt5cxlu5fYGfbQrgmHDxFmKvtao=
 github.com/forklifts-for-great-justice/slfogo/pkg/slfogolib v0.0.0-20250530054946-00790ecec260 h1:i+FHtFBWVXMw4c9cD7MJnvvgB/Jl7yoD6iGhNR5vhTE=
 github.com/forklifts-for-great-justice/slfogo/pkg/slfogolib v0.0.0-20250530054946-00790ecec260/go.mod h1:ksDx48SqG9wFTg5K7Kokk5u6qE7wgXMw5vc5IL009eo=
+github.com/forklifts-for-great-justice/slfogo/pkg/slfogolib v0.0.0-20250603030642-d523c56ee2bd h1:hXWGTgDAzYKkEcnFLPUOTv3VZhe9Ezu0cdsbbFg9awA=
+github.com/forklifts-for-great-justice/slfogo/pkg/slfogolib v0.0.0-20250603030642-d523c56ee2bd/go.mod h1:ksDx48SqG9wFTg5K7Kokk5u6qE7wgXMw5vc5IL009eo=
 github.com/godbus/dbus/v5 v5.0.4/go.mod h1:xhWf0FNVPg57R7Z0UbKHbJfkEywrmjJnf7w5xrFpKfA=
 github.com/gogo/protobuf v1.3.2 h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q=
 github.com/gogo/protobuf v1.3.2/go.mod h1:P1XiOD3dCwIKUDQYPy72D8LYyHL2YPYrpS2s69NZV8Q=
