@@ -20,7 +20,7 @@ func NewMetricHolder() *MetricHolder {
 			prometheus.GaugeOpts{
 				Namespace: "ForkliftsForGreatJustice",
 				Subsystem: "slfogo",
-				Name:      "messages per second",
+				Name:      "messages_per_second",
 				Help:      "Message sent to syslog per second",
 			},
 			[]string{"hostname", "service"}),
